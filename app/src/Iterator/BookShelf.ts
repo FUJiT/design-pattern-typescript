@@ -7,8 +7,8 @@ export default class BookShelf implements Aggregate {
     private _books: Book[];
     private _last: number = 0;
 
-    constructor(maxsize: number) {
-        this._books = new Array(maxsize);
+    constructor() {
+        this._books = [];
     }
 
     getBookAt(index: number): Book {
