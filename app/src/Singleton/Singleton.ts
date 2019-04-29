@@ -1,4 +1,4 @@
-export default class Singleton {
+export class Singleton {
     private static _singleton: Singleton = new Singleton();
 
     private constructor() {

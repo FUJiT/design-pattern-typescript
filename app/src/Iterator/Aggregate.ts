@@ -1,5 +1,5 @@
-import Iterator from './Iterator';
+import { Iterator } from './Iterator';
 
-export default interface Aggregate {
+export interface Aggregate {
     iterator():Iterator;
 }

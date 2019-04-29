@@ -1,4 +1,4 @@
-export default class Book {
+export class Book {
     private _name: string;
 
     constructor(name: string) {

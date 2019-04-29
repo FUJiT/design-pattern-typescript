@@ -1,6 +1,6 @@
-import BookShelf from './BookShelf';
-import Book from './Book';
-import Iterator from './Iterator';
+import { BookShelf } from './BookShelf';
+import { Book } from './Book';
+import { Iterator } from './Iterator';
 
 const bookShelf = new BookShelf();
 bookShelf.appendBook(new Book('Around the world in 80 Days'));

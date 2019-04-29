@@ -1,9 +1,9 @@
-import Aggregate from './Aggregate';
-import Book from './Book';
-import Iterator from './Iterator';
-import BookShelfIterator from './BookShelfIterator';
+import { Aggregate } from './Aggregate';
+import { Book } from './Book';
+import { Iterator } from './Iterator';
+import { BookShelfIterator } from './BookShelfIterator';
 
-export default class BookShelf implements Aggregate {
+export class BookShelf implements Aggregate {
     private _books: Book[];
     private _last: number = 0;
 

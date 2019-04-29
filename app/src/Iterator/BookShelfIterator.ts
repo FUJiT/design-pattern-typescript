@@ -1,7 +1,7 @@
-import Iterator from './Iterator';
-import BookShelf from './BookShelf';
+import { Iterator } from './Iterator';
+import { BookShelf } from './BookShelf';
 
-export default class BookShelfIterator implements Iterator {
+export class BookShelfIterator implements Iterator {
     private _bookShelf: BookShelf;
     private _index: number;
     constructor(bookShelf: BookShelf) {
