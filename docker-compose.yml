@@ -1,0 +1,8 @@
+version: '3'
+services:
+  design-pattern-ts:
+    build: .
+    container_name: design-pattern-ts
+    tty: true
+    volumes:
+      - ./app:/app/
