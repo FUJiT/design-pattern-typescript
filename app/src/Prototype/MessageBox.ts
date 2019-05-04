@@ -7,6 +7,10 @@ export class MessageBox implements Product {
         this.decochar = decochar;
     }
 
+    /**
+     * MessageBoxを使う
+     * @param s 出力する文字
+     */
     use(s: string): void {
         const length = s.length;
 
@@ -23,6 +27,10 @@ export class MessageBox implements Product {
         process.stdout.write("\n");
     }
 
+    /**
+     * クローンを生成する
+     * @returns 生成したクローン
+     */
     createClone(): Product {
         return <Product>clone(this);
     }

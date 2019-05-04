@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "typedoc": "typedoc --out ./docs/ ./src/"
   },
   "keywords": [],
   "author": "",
@@ -20,6 +21,7 @@
     "jest": "^24.7.1",
     "ts-jest": "^24.0.2",
     "ts-node": "^8.1.0",
-    "ts-node-dev": "^1.0.0-pre.32"
+    "ts-node-dev": "^1.0.0-pre.32",
+    "typedoc": "^0.14.2"
   }
 }

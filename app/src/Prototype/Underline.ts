@@ -7,6 +7,10 @@ export class UnderlinePen implements Product {
         this.ulchar = ulchar;
     }
 
+    /**
+     * Underlineを使う
+     * @param s 出力する文字
+     */
     use(s: string): void {
         process.stdout.write(`"${s}"\n `);
         for (let i: number = 0, len: number = s.length; i < len; i++) {
@@ -15,6 +19,10 @@ export class UnderlinePen implements Product {
         process.stdout.write("\n");
     }
 
+    /**
+     * クローンを生成する
+     * @returns 生成したクローン
+     */
     createClone(): Product {
         return <Product>clone(this);
     }
