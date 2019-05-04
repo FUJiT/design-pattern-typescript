@@ -13,8 +13,10 @@
     "typescript": "^3.4.5"
   },
   "devDependencies": {
+    "@types/clone": "^0.1.30",
     "@types/jest": "^24.0.12",
     "@types/node": "^11.13.8",
+    "clone": "^2.1.2",
     "jest": "^24.7.1",
     "ts-jest": "^24.0.2",
     "ts-node": "^8.1.0",
